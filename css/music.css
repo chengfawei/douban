@@ -1,0 +1,545 @@
+/*头部*/
+.header {
+    width: 100%;
+    height: 155px;
+    margin-bottom: 45px;
+    background: #f0f3f5;
+}
+
+.list {
+    height: 31px;
+    background: #545652;
+}
+
+.list ul li {
+    float: left;
+    width: 48px;
+    height: 28px;
+    text-align: center;
+}
+
+.list a {
+    font-size: 12px;
+    height: 28px;
+    line-height: 28px;
+    color: #cccccc;
+}
+
+.list a:hover {
+    color: #fff;
+}
+
+.list .header-right {
+    float: right;
+    margin-right: 15px;
+}
+
+.list .header-right span {
+    margin-right: 13px;
+}
+
+.list .header-right img {
+    position: absolute;
+    right: 150px;
+    top: 31px;
+    z-index: 3;
+    display: none;
+}
+
+.list .header-right span {
+    margin-right: 13px;
+}
+
+.list .header-right ul {
+    position: absolute;
+    right: 30px;
+    top: 31px;
+    border: 1px solid #f0f0f0;
+    display: none;
+}
+
+.list .header-right ul li {
+    float: none;
+    font-size: 12px;
+    line-height: 26px;
+    background: #fff;
+    color: #333;
+    padding: 3px 15px;
+}
+
+.list .header-right li a {
+    color: #333
+}
+
+.list .header-right ul li:hover {
+    background: #f0f0f0;
+    cursor: pointer;
+}
+
+.search {
+    width: 950px;
+    height: 115px;
+    margin: 0 auto;
+}
+
+.search hr {
+    width: 100%;
+}
+
+.search .six {
+    height: 114px;
+    position: absolute;
+    top: 40px;
+    left: 740px;
+}
+
+.search img, ul, input {
+    vertical-align: middle
+}
+
+.search ul li {
+    float: left;
+    height: 36px;
+    background: #f0f3f5;
+}
+
+.search ul li a {
+    font-size: 12px;
+    color: #666;
+    margin-right: 25px;
+    line-height: 36px;
+}
+
+.search ul li a:hover {
+    color: #fff;
+}
+
+.search input {
+    width: 250px;
+    height: 25px;
+    margin-left: 35px;
+    text-indent: 5px;
+    background: #fff url("../images/main/0.png") no-repeat 230px center;
+    border: 1px solid #ccc;
+}
+
+/*头部*/
+
+/*内容*/
+.main {
+    width: 950px;
+    margin: 0 auto;
+}
+
+.main hr {
+    height: 2px;
+    background: green;
+    width: 100%;
+    margin-top: 2px;
+}
+
+.left {
+    width: 600px;
+    float: left;
+}
+
+/*内容*/
+
+/*轮播图*/
+.ads {
+    width: 590px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.ads .list-img {
+    width: 4720px;
+    height: 250px;
+    z-index: 1;
+    position: absolute;
+}
+
+.list-img img {
+    float: left;
+    width: 590px;
+    height: 250px;
+    display: block;
+}
+
+.ads ul {
+    position: absolute;
+    width: 110px;
+    height: 10px;
+    left: 240px;
+    z-index: 2;
+    bottom: 20px;
+}
+
+.ads ul li {
+    float: left;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #f0f3f5;
+    border-radius: 50%;
+    background: #333;
+    cursor: pointer;
+}
+
+.ads .active {
+    background: #23ab88;
+}
+
+.arrow {
+    position: absolute;
+    width: 25px;
+    height: 30px;
+    z-index: 2;
+    top: 110px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 36px;
+    color: #23ab88;
+    line-height: 23px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.arrow:hover {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#prev {
+    left: 20px;
+}
+
+#next {
+    right: 20px;
+}
+
+/*轮播图*/
+/*音乐人*/
+.musical {
+    width: 593px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.musical .show2 {
+    display: block;
+}
+
+.musical span {
+    font-size: 12px;
+    color: #666;
+}
+
+.musical span em {
+    cursor: pointer;
+}
+
+.musical span .show1 {
+    font-size: 16px;
+    color: #333;
+}
+
+.musical div{
+    height: 400px;
+    background: #f5f7f8;
+    padding: 20px 10px;
+    display: none;
+}
+
+.musical img {
+    cursor: pointer;
+    width: 120px;
+    height: 120px;
+    padding: 2px;
+    margin-bottom: 20px;
+}
+
+.musical li{
+    float: left;
+    margin-left: 15px;
+}
+
+.musical li span {
+    text-align: center;
+}
+
+.musical li span{
+    display: block;
+}
+
+.musical li span a{
+    display: block;
+    font-size: 15px;
+    color: #138a64;
+}
+
+.musical li span em{
+    font-size: 12px;
+    line-height: 30px;
+    color: #666;
+}
+
+/*音乐人*/
+/*音乐切换*/
+.send .sen1 {
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 77%;
+    color: #555;
+}
+
+.send .show {
+    display: block;
+}
+
+.send .but1, .but2 {
+    cursor: pointer;
+    background: #23ab88;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+.send .but1 {
+    background: #80cfbb
+}
+
+.send div {
+    width: 600px;
+    height: 390px;
+    background: #f5f7f8;
+    display: none;
+}
+
+.send div li {
+    width: 180px;
+    padding: 10px 15px;
+    background: #fff;
+    margin-left: 12px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    float: left;
+}
+.send div li span {
+    display: block;
+}
+.send div li span a {
+    display: block;
+    font-size: 15px;
+    color: #138a64;
+}
+
+.send div li span em {
+    font-size: 12px;
+    line-height: 30px;
+    color: #666;
+}
+
+.send div p {
+    font-size: 12px;
+    color: #999;
+}
+
+/*音乐切换*/
+
+/*加入*/
+.right {
+    width: 300px;
+    float: right;
+}
+
+.right .right-top img {
+    width: 305px;
+    height: 250px;
+}
+
+.right .top-list {
+    margin-top: 25px;
+}
+
+.right .top-list ul {
+    width: 310px;
+}
+
+.right .top-list li {
+    width: 100px;
+    height: 60px;
+    background: #f5f7f8;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    color: #333;
+    margin-right: 3px;
+    line-height: 30px;
+    border-bottom: 5px solid #fff;
+}
+
+.right .top-list strong {
+    color: #23ab88;
+    display: block;
+}
+
+.right .top-list .join {
+    width: 310px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #23ab88;
+    clear: both;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+/*加入*/
+
+/*单曲*/
+.hot strong {
+    font-size: 20px;
+    margin-right: 35%;
+    color: #555;
+}
+
+.hot .but3 {
+    width: 80px;
+    height: 25px;
+    background: #388d78;
+    color: #ffffff;
+    text-align: center;
+    line-height: 25px;
+    font-size: 14px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.hot hr {
+    height: 2px;
+    width: 100%;
+    background: #666;
+    margin: 3px auto;
+}
+
+.hot li {
+    float: left;
+    color: #666;
+}
+
+.hot a {
+    color: #666;
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+.hot li .sec {
+    color: #247258;
+}
+
+.hot a:hover {
+    text-decoration: underline;
+}
+
+.hot .hot-list {
+    margin-top: 30px;
+}
+
+.hot .hot-list .sec {
+    display: block;
+}
+
+.hot .hot-list ul {
+    display: none;
+}
+
+.hot .hot-list li {
+    width: 310px;
+    height: 60px;
+    color: #666;
+    padding: 5px 10px;
+}
+
+.hot .hot-list li:hover {
+    background: #f5f7f8;
+    cursor: pointer;
+}
+
+.hot .hot-list li em {
+    color: #3f8f74;
+    font-size: 14px;
+    display: block;
+    font-weight: bold;
+}
+
+.hot .hot-list li span {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.hot .hot-list li h1 {
+    color: #e6e6e6;
+    font-size: 50px;
+    float: right;
+    margin-top: -20px;
+    margin-right: 15px;
+}
+
+.hot .hot-list li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5px;
+}
+
+/*单曲*/
+/* 内容 */
+.content {
+    width: 1000px;
+    min-height: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/*尾部*/
+.footer {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-family: Tahoma;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #aaa;
+    border-top: 1px solid #999;
+}
+
+.footer ul {
+    float: right;
+}
+
+.footer li {
+    float: left;
+}
+
+.footer li a {
+    font-size: 12px;
+    color: #3276ab;
+    line-height: 30px;
+}
+
+/*尾部*/
